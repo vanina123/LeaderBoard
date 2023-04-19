@@ -4,25 +4,45 @@
   margin-left: 231px;
 }
 
-.board {
-  font-size: xx-large;
+.main {
+  padding-top: 8vh;
+  display: flex;
+  gap: 40px;
+  text-align: left;
 }
 
-.score {
-  margin-bottom: -19px;
+.sc1 {
+  display: flex;
+  gap: 34px;
+  justify-content: center;
+  align-items: center;
 }
 
 .refresh {
-  margin-left: 174px;
+  height: 30px;
+  border: none;
+  box-shadow: 4px 4px;
 }
 
-.submit-btn {
-  margin-left: 302px;
-  margin-top: -116px;
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 0;
+  height: auto;
+}
+
+.list0 {
+  margin-left: -38px;
+}
+
+.list1 {
+  border: 2px solid;
 }
 
 .submit {
-  margin-left: 119px;
+  margin-left: 117px;
+  box-shadow: 4px 4px;
 }
 
 .submit:hover {
@@ -33,18 +53,8 @@
   cursor: pointer;
 }
 
-.list {
-  border: 0 solid;
-  margin-right: 75%;
-  box-shadow: 0 5px 5px rgba(39, 28, 28, 0.82), 0 5px 5px rgba(10, 1, 1, 0.82);
-}
-
 ul {
   list-style: none;
-}
-
-.list0 {
-  margin-left: -40px;
 }
 
 li:nth-child(even) {
