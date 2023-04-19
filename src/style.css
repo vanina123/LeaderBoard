@@ -1,0 +1,62 @@
+.leaderb {
+  margin: auto;
+  padding: 92px;
+  margin-left: 231px;
+}
+
+.main {
+  padding-top: 8vh;
+  display: flex;
+  gap: 40px;
+  text-align: left;
+}
+
+.sc1 {
+  display: flex;
+  gap: 34px;
+  justify-content: center;
+  align-items: center;
+}
+
+.refresh {
+  height: 30px;
+  border: none;
+  box-shadow: 4px 4px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 0;
+  height: auto;
+}
+
+.list0 {
+  margin-left: -38px;
+}
+
+.list1 {
+  border: 2px solid;
+}
+
+.submit {
+  margin-left: 117px;
+  box-shadow: 4px 4px;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.refresh:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+li:nth-child(even) {
+  background-color: #ccc;
+}
