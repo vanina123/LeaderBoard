@@ -1,0 +1,52 @@
+.leaderb {
+  margin: auto;
+  padding: 92px;
+  margin-left: 231px;
+}
+
+.board {
+  font-size: xx-large;
+}
+
+.score {
+  margin-bottom: -19px;
+}
+
+.refresh {
+  margin-left: 174px;
+}
+
+.submit-btn {
+  margin-left: 302px;
+  margin-top: -116px;
+}
+
+.submit {
+  margin-left: 119px;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.refresh:hover {
+  cursor: pointer;
+}
+
+.list {
+  border: 0 solid;
+  margin-right: 75%;
+  box-shadow: 0 5px 5px rgba(39, 28, 28, 0.82), 0 5px 5px rgba(10, 1, 1, 0.82);
+}
+
+ul {
+  list-style: none;
+}
+
+.list0 {
+  margin-left: -40px;
+}
+
+li:nth-child(even) {
+  background-color: #ccc;
+}
