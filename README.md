@@ -33,7 +33,8 @@
 # 📖 Leader Board <a name="about-project"></a>
 
 
-**[Leader Board]** is a project that collects the name and scores of different players when submitted
+**[Leader Board]** is a project that collects the name and scores of different players when submitted and it is store in an API
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>

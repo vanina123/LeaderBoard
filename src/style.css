@@ -1,11 +1,19 @@
+body {
+  background-color: #ffc0cb;
+}
+
 .leaderb {
   margin: auto;
   padding: 92px;
   margin-left: 231px;
 }
 
+.board {
+  font-size: 50px;
+}
+
 .main {
-  padding-top: 8vh;
+  padding-top: 1vh;
   display: flex;
   gap: 40px;
   text-align: left;
@@ -32,8 +40,13 @@
   height: auto;
 }
 
+.name {
+  height: 30px;
+}
+
 .list0 {
   margin-left: -38px;
+  font-size: 20px;
 }
 
 .list1 {
@@ -47,10 +60,13 @@
 
 .submit:hover {
   cursor: pointer;
+  background-color: #90ee90;
 }
 
 .refresh:hover {
   cursor: pointer;
+  background-color: #90ee90;
+  transition: 1s;
 }
 
 ul {
